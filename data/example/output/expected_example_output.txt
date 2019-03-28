@@ -1,0 +1,22 @@
+example/comedies
+Positive word: 12461 negative word: 10904
+Sentiment score: 0.0666381339611
+
+example/histories
+Positive word: 9851 negative word: 10657
+Sentiment score: -0.0393017359079
+
+example/poems
+Positive word: 2389 negative word: 3090
+Sentiment score: -0.127943055302
+
+example/tragedies
+Positive word: 11072 negative word: 12034
+Sentiment score: -0.0416342075651
+
+
+-- expected output for the example directory
+example/comedies 0.0666381339611
+example/histories -0.0393017359079
+example/tragedies -0.0416342075651
+example/poems -0.127943055302
