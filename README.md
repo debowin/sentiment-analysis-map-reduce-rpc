@@ -1,6 +1,6 @@
 # MAP-REDUCE FRAMEWORK WITH THRIFT RPC FOR SENTIMENT ANALYSIS
 
-
+![sentiment_image](diagram.png)
 
 This system can perform a very simple form of Sentiment Analysis on very large datasets by utilising the Map-Reduce paradigm.
 The client node can send a job to the server node with a list of files, which the server breaks down into map tasks and assigns to
@@ -9,7 +9,7 @@ Once all the scores are received at the server node, it assigns a sort task to o
 sentiment score in decreasing order and returns this to the client node via the server node.
 
 Each Compute Node is allotted a Load Probability to reject tasks if using Load Balancing scheduling and also for injecting loads
-through configurable delays. For more information, look at "problem_statement.pdf".
+through configurable delays. For more information, look at the [problem_statement](problem_statement.pdf).
 
 The code is very well documented with very verbose logging.
 Future Work would be on better Exception Handling.
